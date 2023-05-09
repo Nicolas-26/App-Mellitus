@@ -1,0 +1,85 @@
+ion-content{
+  font-family: 'poppins', sans-serif;
+  --background:linear-gradient(#f3ecec,#d3d3d3);
+}
+ion-text{
+  margin-left: 112px;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: xx-large;
+  p{
+    text-align: center;
+    margin-top: 8px;
+  }
+}
+ion-header{
+  height: 100px;
+}
+.topo-home{
+  ion-icon{
+    float: right;
+    margin-right: 20px;
+    font-size: 70px;
+    margin-left: 210px !important;
+    color: black;
+    float: right;
+  }
+  ion-img{
+    width: 30%;
+  }
+}
+ion-input{
+  width: 10%;
+  color: black;
+  display: flex;
+}
+.valor-gli{
+  margin-left: 26%;
+  text-align: center;
+  margin-top: -60px !important;
+  .vg{
+    background-color: #ffffff;
+    width: 230px;
+    height: 100px;
+    border-radius: 20px;
+    p{
+      font-size: 100px;
+    }
+  }
+  ion-input{
+    margin-left: 60px;
+  }
+  ion-button{
+    margin-top: 30px;
+    margin-right: 87px;
+  }
+}
+
+.horario-med{
+  label{
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: xx-large;
+  margin-left: 80px;
+  p{
+    text-align: center;
+    margin-top: 5px !important;
+  }
+  }
+  .hm{
+    background-color: rgb(223, 223, 223);
+    width: 230px;
+    height: 80px;
+    border-radius: 20px;
+    margin-left: 105px;
+    ion-datetime-button, ion-modal{
+      height: 88px;
+    }
+  }
+  ion-button{
+    margin-top: 25px;
+    margin-left: 90px;
+  }
+}

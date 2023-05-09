@@ -1,0 +1,28 @@
+<ion-content [fullscreen]="true">
+    <ion-img src="/assets/img/Artboard-1.jpeg"></ion-img>
+    <ion-icon name="chevron-back-circle-outline" (click)="voltarHome()"></ion-icon>
+    <ion-button color="danger" (click)="historico()">Histórico De Glicemia</ion-button><br><br>
+    <br>
+    <div class="colior">
+    <ion-label>
+      <br><br>
+      <ion-text>Atualize o Valor</ion-text>
+    </ion-label>
+    <div class="valor-gli">
+      <div class="vg">
+        <p>_ _ _</p>
+      </div>
+      <ion-button color="danger" (click)="Salvar()">Salvar</ion-button>
+    </div><br><br><br>
+    <ion-text id="txt">Como Realizar O Teste?</ion-text>
+    <iframe width="99%" height="150" src="https://www.youtube.com/watch?v=Y2Aq0KPKx7U" allow="accelerometer; autoplay;
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen><ion-icon name="caret-forward-circle-outline"></ion-icon></iframe>
+    <div class="icons">
+      <ion-icon name="calendar-outline" size="30px"></ion-icon>
+      <ion-icon name="home-outline" (click)="home()"></ion-icon>
+      <ion-icon name="restaurant-outline" class="ion-float-rigth"></ion-icon>
+    </div>
+  </div>
+</ion-content>
+

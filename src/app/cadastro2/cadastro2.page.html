@@ -1,0 +1,21 @@
+<div class="icon">
+    <ion-icon name="chevron-back-circle-outline" (click)="voltarParaIdade()"></ion-icon>
+</div>
+<ion-img src="/assets/img/Artboard-1.jpeg"></ion-img>
+<ion-item-option class="meio-baixo">
+    <div class="cadastro-nome">
+      <div class="nome">
+        <label id="txtNome">NOME</label><br>
+        <input type="text" placeholder="Digite seu nome aqui:" id="iptNome"><br><br>
+      </div><br><br><br>
+      <div class="sobrenome">
+        <label id="txtSobreNome">SOBRENOME</label><br>
+        <input type="text" placeholder="Digite seu sobrenome aqui:" id="iptSobrenome"><br><br>
+      </div><br><br><br>
+      <div class="email">
+        <label id="txtEmail">E-MAIL</label><br>
+        <input type="text" placeholder="Digite seu email aqui:" id="iptEmail">
+      </div>
+    </div>
+  </ion-item-option>
+<ion-button size="large" color="danger" class="login-button" (click)="verificar()">Verificar E-Mail</ion-button>

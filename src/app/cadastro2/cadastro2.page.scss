@@ -1,0 +1,52 @@
+.icon{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 60px;
+ }
+
+ion-img{
+  margin-top: -380px;
+}
+
+.meio-baixo{
+    margin-top: -390px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    #txtNome{
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 10px;
+        color: black;
+    }
+
+    #txtSobreNome{
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 10px;
+        color: black;
+    }
+
+    #txtEmail{
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 10px;
+        color: black;
+    }
+
+    input{
+        width: 300px;
+        height: 40px;
+
+    }
+}
+.cadastro-nome{
+  margin-right: 100px;
+  margin-top: 190px;
+}
+.login-button{
+  margin-bottom: 0px;
+  height: 50px;
+}
+

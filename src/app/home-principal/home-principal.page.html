@@ -1,0 +1,45 @@
+<ion-content>
+  <ion-item class="topo-home">
+    <ion-img src="/assets/img/Artboard-1.jpeg"></ion-img>
+    <ion-icon name="person-circle-outline" id="icon"></ion-icon>
+  </ion-item>
+    <ion-text class="ion-text-capitalize">
+      Ùltimo valor de <p>Glicemia Registrado:</p>
+    </ion-text>
+    <div class="valor-gli">
+      <div class="vg">
+        <p>555</p>
+      </div>
+      <ion-button color="danger" (click)="Administrar()">Administrar</ion-button><br><br><br><br>
+    </div>
+    <div class="horario-med">
+      <label>Próximo Horário De <p>Medicação:</p></label>
+      <div class="hm">
+        <ion-datetime-button datetime="datetime"></ion-datetime-button>
+      <ion-modal [keepContentsMounted]="true">
+        <ng-template>
+          <ion-datetime id="datetime"></ion-datetime>
+        </ng-template>
+      </ion-modal>
+      </div>
+      <ion-button color="danger" (click)="admMedicamentos()">Administrar Medicamentos</ion-button>
+    </div>
+  </ion-content>
+  <ion-footer>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="calendario">
+        <ion-icon name="calendar-outline"></ion-icon>
+          Histórico
+      </ion-tab-button>
+      <ion-tab-button tab="menu">
+        <ion-icon name="home-outline" (click)="exercicios()"></ion-icon>
+          Menu de Exercícios
+      </ion-tab-button>
+      <ion-tab-button tab="receita">
+        <ion-icon name="restaurant-outline" (click)="receitas()"></ion-icon>
+         Receitas
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-footer>
+
+

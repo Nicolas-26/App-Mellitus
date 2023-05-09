@@ -1,0 +1,103 @@
+ion-img{
+  width: 35%;
+  float: right;
+  margin-top: 0px;
+}
+ion-icon{
+  float: left;
+  margin-top: 80px;
+  font-size: 60px;
+  margin-left: 50px;
+}
+ion-text{
+  margin-left: 50px;
+  p{
+    text-align: justify;
+    margin-left: 110px;
+    margin-top: 200px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  a{
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+  }
+}
+.medicamentos{
+  margin-left: 26%;
+  text-align: center;
+  margin-top: -60px !important;
+  .alarme{
+    background-color: #ffffff;
+    width: 230px;
+    height: 70px;
+    border-radius: 13px;
+    p{
+      font-size: 60px;
+    }
+  }
+}
+.color{
+  background-color: rgb(235, 230, 230);
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  height: 940px;
+  ion-button{
+    margin-left: 150px;
+  }
+}
+.cor{
+  font-family: 'poppins', sans-serif;
+  --background:linear-gradient(#d4d2d2,#eee7e7);
+}
+.txt{
+  margin-left: -120px !important;
+  margin-top: -28%;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#txt2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: -200px !important;
+}
+.remedio{
+  ion-icon{
+    font-size: 40px;
+  }
+  #icon2{
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  ion-button{
+    margin-top: 45px;
+  }
+}
+#txta{
+  margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: xx-large;
+}
+iframe{
+  width: 98%;
+}
+.linha{
+  background-color: black;
+  width: 99%;
+  height: 1px;
+}
+#inst{
+  margin-left: 150px;
+  font-size: 33px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+.icons{
+  margin-left: 30px;
+}

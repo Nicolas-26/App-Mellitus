@@ -1,0 +1,58 @@
+ion-header{
+  height: 1px;
+}
+
+ion-icon{
+  margin-top: 65px;
+  margin-left: 20px;
+  font-size: 60px;
+}
+
+ion-img{
+  width: 140px;
+  float: right;
+}
+ion-app{
+  margin-top: 250px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  color: rgb(73, 73, 73);
+}
+.color{
+  background-color: rgb(231, 226, 226);
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  height: 500px;
+  input{
+    width: 300px;
+    height: 33px;
+  }
+}
+#txtSenha{
+  margin-left: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+}
+#iptSenha{
+  margin-left: 50px;
+}
+#txtConSenha{
+  margin-left: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+}
+#iptConSenha{
+  margin-left: 50px;
+}
+ion-checkbox{
+  margin-left: 40px;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+ion-button{
+  margin-top: 60px;
+  width: 99%;
+}
+
